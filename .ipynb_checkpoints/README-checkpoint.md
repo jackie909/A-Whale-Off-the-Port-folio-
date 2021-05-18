@@ -76,7 +76,7 @@ An alternative method to calculate a rolling window is to take the exponentially
 
 ### Sharpe Ratios
 
-Investment managers and their institutional investors look at the return-to-risk ratio, not just the returns. After all, if you have two portfolios that each offer a 10% return, yet one is lower risk, you would invest in the lower-risk portfolio, right?
+Investment managers and their institutional investors look at the return-to-risk ratio, not just the returns. For example, if we have two portfolios that each offer a 10% return, yet one is lower risk, we would invest in the lower-risk portfolio.
 
 1. Using the daily returns, calculate and visualize the Sharpe ratios using a bar plot.
 
@@ -84,7 +84,7 @@ Investment managers and their institutional investors look at the return-to-risk
 
 ### Create a Custom Portfolio
 
-Harold is ecstatic that you were able to help him prove that the algorithmic trading portfolios are doing so well compared to the market and whales portfolios. However, now you are wondering whether you can choose your own portfolio that performs just as well as the algorithmic portfolios. Investigate by doing the following:
+Investigate by doing the following:
 
 1. Visit [Google Sheets](https://docs.google.com/spreadsheets/) and use the built-in Google Finance function to choose 3-5 stocks for your portfolio.
 
@@ -102,7 +102,7 @@ Harold is ecstatic that you were able to help him prove that the algorithmic tra
     * Calculate and plot beta for your portfolio compared to the S&P 60 TSX.
     * Calculate the Sharpe ratios and generate a bar plot.
 
-4. How does your portfolio do?
+4. Evaluate the performance of our custom portfolio
 
 ---
 
@@ -116,12 +116,3 @@ Harold is ecstatic that you were able to help him prove that the algorithmic tra
 
 * [Supplemental Guide: Fetching Stock Data Using Google Sheets](../../../01-Lesson-Plans/04-Pandas/Supplemental/googlefinance_guide.md)
 
----
-
-## Hints
-
-* After reading each CSV file, don't forget to sort each DataFrame in ascending order by the Date using `sort_index`. This is especially important when working with time series data, as we want to make sure Date indexes go from earliest to latest.
-
-* The Pandas functions used in class this week will be useful for this assignment.
-
-* Be sure to use `head()` or `tail()` when you want to look at your data, but don't want to print to a large DataFrame.
